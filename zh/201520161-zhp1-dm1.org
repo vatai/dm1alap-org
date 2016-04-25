@@ -1,0 +1,68 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+
+* Diszkrét matematika 1 - Első zárthelyi dolgozat (Pót ZH)
+  Számológép használata megengedett (kivéve grafikus illetve
+  programozható számológép). Időtartam: 90 perc. Minden feladat 10
+  pontot ér, a 2-es, 3-as, 4-es, 5-ös pont\-határa: 20, 30, 40, 50.
+
+
+  1. Számítsa ki algebrai alakban a következőket:
+     1) $(50-10i)(20+90i)$;
+     2) $(3-7i)^2$;
+     3) $(18-12i)/(9+15i)$;
+     4) $(-i)^{-11}$;
+     5) $(2+2i)^{10}$.
+  2. A trigonometrikus alak segítségével számítsa ki a $z$ értékét
+     trigonometrikus és algebrai alakban is, majd adja meg az összes
+     olyan $w$ komplex számot trigonometrikus alakban, melyre $w^3=z$.
+     \[ z = \frac{(1-i)^{30}}{(1+\sqrt{3}i)^{16}} \]
+
+  3. Adjunk meg két-két olyan komplex számot, melyre (külön-külön)
+     teljesülnek az alábbiak:
+     1) $z^3 = |z|$;
+     2) $z = \overline{z}$;
+     3) $\operatorname{Re}(z)=-2\operatorname{Im}(z)$;
+     4) $|iz| = |-2iz^3|$;
+     5) $|z + 5 - 2i| = |z|$.
+
+  4. Egy fiktív univerzum leírásához a következő predikátumokat
+     használjuk: $B(x): x$ boszorkány, $V(x): x$ varázsló, $M(x):x$
+     mugli, $F(x): x$ férfi, $N(x): x$ nő, $A(x): x$ állat, $E(x): x$
+     ember, \(P(x, y): x\)-nek $y$ a patrónusa, $G(x,y):x$ gyereke
+     \(y\)-nak. Így például $P(\text{Harry}, \text{szarvas})$ azt
+     jelenti, hogy Harrynek szarvas a patrónusa. Írjuk fel logikai
+     formulákkal a következő magyar nyelvű mondatokat:
+     1) Hermione patrónusa vidra;
+     2) Minden patrónus állat;
+     3) Varázslók illetve boszorkányok nem muglik.
+     4) Van olyan állat, amely csak boszorkányok patrónusa.
+     5) Van olyan boszorkány, akinek ugyanaz a patrónusa, mint az
+        anyjának.
+ 
+  5. Legyen $A = \{1, 3, 5, 7\}$, $B = \{1, 2, 3,
+     4,5,6,7,8\}$. Számítsuk ki \(A\Delta B\)-t. Adjunk meg
+     három-három lehetőséget olyan $C$ halmazra, melyre:
+     1) $B \cap C \subseteq A$;
+     2) $\{1, 2\} \subseteq (A \Delta B) \Delta C$;
+     3) $(A \Delta C) \Delta B$ elemei mind párosak.
+
+  6. Választható az alábbi két feladat közül. A választást tüntessük fel
+     a beadott lapon.  
+
+     6H: Mi a pontos (azaz szükséges és elégséges) feltétele annak,
+     hogy $A \cup B = A \Delta B$ teljesüljön?  Állításunkat
+     igazoljuk. Melyek azok az $A$ halmazok, melyekhez létezik olyan
+     $B$, melyre $A \cup (B \setminus A) = (A \setminus B) \Delta B$?
+     Indokoljunk.
+
+     6R: Az alábbi $R$, illetve $S$ relációkról döntsük el, hogy
+     rendelkeznek-e a reflexív, szimmetrikus, tranzitív, illetve
+     antiszimmetrikus tulajdonsággal az $X$, illetve $Y$
+     halmazon. Számítsuk ki az $R\circ S$ és $S\circ R$ relációkat is:
+     adjuk meg rendezett párok halmazaként.
+     - $R = \{(1,1), (1, 2), (2, 1), (1,3), (3,1), (2, 2), (2,4),
+       (4,2) \}$, $X = \{1, 2, 3, 4\}$.
+     - $S = \{(x, y) \mid x, y\in \mathbb{N}, (x-y)^4 < 10\}$, $Y =
+       \mathbb{N}$.
+

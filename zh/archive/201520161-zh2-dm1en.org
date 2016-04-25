@@ -1,0 +1,86 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "en" -*-
+#+SETUPFILE: zh-inc.org
+
+* Discrete mathematics 1 - Second test
+  You can use a calculator (but only if it is not programable). Every
+  problem is worth 10 points, you need 20, 30, 40, 50 points for the
+  grades 2, 3, 4, 5.
+  1. 
+     1) How many ways can you decorate a Christmas tree with 64 branches
+	and 16 decorations (each unique \ie different) if you can put at
+	most one decoration on every branch?
+     2) How many ways can you decorate a Christmas tree with 54 branches
+	and 26 decorations (all the same) if you can put at most one
+	decoration on every branch?
+     3) How many ways can 10 people sit around a camp fire, if they
+	don't care about the direction they're facing, only who they sit
+	next to (\ie if everyone moves one place left, it's still the
+	same arrangement)?
+     4) How many ways can we choose 10 cards from a deck of 52 cards, so
+	that we chose at lease 2 aces (there are 4 aces in the deck)?
+  2. 
+     1) Santa is filling his bag with Christmas gifts! There are 32 kinds
+	of gifts, how many ways can he fill his bag with 48 gifts?
+     2) How many ways can Santa put 13 different gifts into 3 different
+	stockings?
+     3) How many ways can Santa put 16 gifts into 4 stocking, if he has
+	to divide the gifts equally (\ie he puts the same number of
+	gifts into each stocking)?
+  3. How many numbers can you make with the digits 4, 5, 6, 7, 8 and 9
+     if:
+     #+ATTR_LATEX: :environment inparaenum
+     1) the last digit is even?
+     2) every digit is even?
+     3) both 8 and 9 appear in the number?
+     4) it is divisible by 3?
+  4. What is $2015^{2016} \bmod 81$?
+  5. Solve the following three Diophantine equations (separately):
+     #+ATTR_LATEX: :environment inparaenum
+     1. $50x + 75y = 225$;
+     2. $13x + 17y = 400$;
+     3. $368x + 161y = 22$.
+  6. Solve the following system of congruences: $3x \equiv 1 \pmod4, 5x
+     \equiv 2 \pmod7, 7x \equiv 8 \pmod9$.
+
+\vfill
+* Discrete mathematics 1 - Second test
+  You can use a calculator (but only if it is not programable). Every
+  problem is worth 10 points, you need 20, 30, 40, 50 points for the
+  grades 2, 3, 4, 5.
+  1. 
+     1) How many ways can you decorate a Christmas tree with 64 branches
+	and 16 decorations (each unique \ie different) if you can put at
+	most one decoration on every branch?
+     2) How many ways can you decorate a Christmas tree with 54 branches
+	and 26 decorations (all the same) if you can put at most one
+	decoration on every branch?
+     3) How many ways can 10 people sit around a camp fire, if they
+	don't care about the direction they're facing, only who they sit
+	next to (\ie if everyone moves one place left, it's still the
+	same arrangement)?
+     4) How many ways can we choose 10 cards from a deck of 52 cards, so
+	that we chose at lease 2 aces (there are 4 aces in the deck)?
+  2. 
+     1) Santa is filling his bag with Christmas gifts! There are 32 kinds
+	of gifts, how many ways can he fill his bag with 48 gifts?
+     2) How many ways can Santa put 13 different gifts into 3 different
+	stockings?
+     3) How many ways can Santa put 16 gifts into 4 stocking, if he has
+	to divide the gifts equally (\ie he puts the same number of
+	gifts into each stocking)?
+  3. How many numbers can you make with the digits 4, 5, 6, 7, 8 and 9
+     if:
+     #+ATTR_LATEX: :environment inparaenum
+     1) the last digit is even?
+     2) every digit is even?
+     3) both 8 and 9 appear in the number?
+     4) it is divisible by 3?
+  4. What is $2015^{2016} \bmod 81$?
+  5. Solve the following three Diophantine equations (separately):
+     #+ATTR_LATEX: :environment inparaenum
+     1. $50x + 75y = 225$;
+     2. $13x + 17y = 400$;
+     3. $368x + 161y = 22$.
+  6. Solve the following system of congruences: $3x \equiv 1 \pmod4, 5x
+     \equiv 2 \pmod7, 7x \equiv 8 \pmod9$.
+

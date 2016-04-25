@@ -1,0 +1,87 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+
+* Diszkrét matematika 1 - Második zárthelyi dolgozat (Pót ZH)
+  
+  Számológép használata megengedett (kivéve grafikus illetve
+  programozható számológép). Időtartam: 90 perc. Minden feladat 10
+  pontot ér, a 2-es, 3-as, 4-es, 5-ös pont\-határa: 20, 30, 40, 50.
+  
+  1. 
+     1) Hányféleképp tudjuk feldíszíteni a karácsony\-fa 42 különböző
+        ágát 35 darab különböző dísszel, ha minden ágra legfeljebb
+        egyet teszünk?
+     2) Hányféleképp tudjuk feldíszíteni a karácsony\-fa 52 különböző
+	ágát 45 egyforma dísszel, ha minden ágra legfeljebb egyet
+	teszünk?
+     3) Hányféleképp tudja Télapó feltölteni puttonyát, ha 72 fajta
+	ajándék közül választhat és 100 ajándék fér a puttonyba?
+     4) Hányféleképp tud Télapó 25 különböző ajándékot szétosztani 15
+	gyereknek (előfordulhat, hogy rosszak voltak és nem kapnak
+	semmit)?
+     5) Hányféleképp tudunk kiüríteni (megenni) négy doboz bonbont, ha
+        van kettő doboz 12-12, egy doboz 6 és egy doboz 3 bonbonnal,
+        feltéve, hogy ha felbontunk egy dobozt, annak tartalmát el is
+        fogyasztjuk, és addig nem bontunk fel másikat, továbbá egy
+        dobozban különbözőek a bonbonok, és számít milyen sorrendben
+        esszük meg őket, és a három bonbonos dobozt (ami egy
+        különlegesen finom fajta) a végére szeretnénk hagyni?
+  2. 
+     1) Hányféleképp tud a Mikulás 16 (különböző) ajándékot
+	szétosztani 4 csizmába, ha minden csizmába egyforma számú
+	ajándék kerül?
+     2) Hányféleképp tud a Mikulás 16 (egyforma) ajándékot szétosztani
+	4 csizmába, ha minden csizmába legalább 2 ajándék kerül?
+     3) Hogyan tudunk 15 ajándékot becsomagolni, ha 3-at piros, 5-öt
+	sárga és 7-et kék csomagoló papírba csomagolunk?
+     4) Hányféleképp tudunk egy csomag francia kártyából (52 lap)
+        választani 12-t úgy, hogy legalább 3 király szerepeljen a
+        kiválasztottak között?
+  3. A Halál\-csillagon a roham\-osztagosoknak az 1,2,3,4,5,6,7,8
+     számjegyekből álló, hat\-számjegyes egyedi azonosítójuk van.
+     Hány roham\-osztagos katonát tud elszállásolni a Halál\-csillag
+     (adat\-bázis módosítás nélkül) ha az azonosító:
+     1) osztható 4-gyel?
+	# A 
+     2) első számjegye páros?
+	# A
+     3) első számjegye kisebb az utolsó számjegy kétszeresétől?
+	# A
+     4) csak prímszámokból állhat?
+	# A
+  4. Alkalmazzuk a /bővített/ euklideszi algoritmust a következő szám\-párokon:
+     #+ATTR_LATEX: :environment inparaenum
+     1) $(172,82)$,
+     2) $(40,89)$,
+     3) $(19,13)$,
+     4) $(20,45)$.
+
+  5. Oldjuk meg az alábbi feladatokat, azaz valamilyen formában adjuk
+     meg az összes $x$ értéket, melyek igazzá teszik (többféle
+     megoldási mód is elfogadható, de csak a megoldást nem fogadjuk
+     el, mindenképpen meg kell mondani, hogy jött ki): [fn:: Segítség:
+     lehet, hogy érdemes az előző feladat után nekilátni ennek.]
+
+     #+ATTR_LATEX: :environment inparaenum
+     1) $82x \equiv 6 \pmod {172}$; 
+     2) $89x \equiv 3 \pmod {40}$;
+     3) $45x \equiv 12 \pmod {20}$;
+     4) $19x \equiv 7  \pmod {13}$.
+
+  6. Választható az alábbi feladatok közül. A választást tüntessük
+     fel a beadott lapon.
+
+     6S: Legyen $a_1,a_2,\ldots,a_{20}$ egész számok egy sorozata.
+     Bizonyítsuk be, hogy van olyan $m<n$ index, hogy
+     $\sum_{k=m}^na_k$ osztható 20-szal!
+
+     6K: Darth Vader próbálja sorokba és oszlopokba rendezni a
+     roham\-osztagosokat. Ha minden sorba 5 katonát parancsol, akkor
+     az utolsó sorba 1 jut, ha 7 katonát parancsol, akkor az utolsó
+     sorba 1 jut, ha 9 katonát parancsol, akkor az utolsó sorba 4 jut.
+     
+     Hány roham\-osztagos van a Halál\-csillagon, ha tudjuk, hogy a
+     bázis befogadóképessége 300 katona?
+
+     6E: Milyen maradékot ad 2-vel, 3-mal, 5-tel illetve 10-zel osztva
+     a $2014^{2015^{2016}}$ hatvány?

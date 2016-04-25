@@ -1,0 +1,83 @@
+# -*- mode: org; mode:flyspell; ispell-local-dictionary: "hu" -*-
+#+BIND: org-latex-title-command ""
+#+INCLUDE: zh-inc.org
+* Diszkrét matematika 1. (emelt) 1. pzh (2014-2015 ősz) 
+  1. 
+     1) Az embereket tekintve, jelölje $G(x,y)$, és $F(x)$ rendre azt,
+	hogy $x$ gyereke $y$-nak, illetve, hogy $x$ férfi.  Vezess be
+	egy új predikátumot amely szükséges a bátyja és a húga
+	definiálásához! Jelöld $I$-vel!  Definiáld formulákkal a bátyja
+	és a húga predikátumokat!  Jelöld $B(x,y)$ illetve $S(x,y)$-nel!
+	Definiáld formulákkal az alábbi kapcsolatokat: $x$ az $y$-nak
+	anyai nagyapja, unokaöccse!  Jelöld $N_a(x,y)$ illetve
+	$U_o(x,y)$-nal!
+     2) Az embereket tekintve, jelölje $B(x)$, $J(x)$, $K(x)$, $N(x)$,
+	$T(x,y)$ és $H(x,y)$ rendre azt, hogy $x$ bíró, jogász,
+	képviselő, illetve, hogy $x$ tiszteli $y$-t valamint, hogy $x$
+	házastársa $y$-nak.  Formalizáljuk a következő mondatokat: Van
+	olyan bíró, aki tisztel néhány nőt; Azok a jogászok, akiknek
+	életerős feleségük van, mind képviselők!
+  2. Legyen $R$ reláció $X$ és $Y$ halmaz között.  Bizonyítsuk be, hogy
+     $R$ pontosan akkor függvény, ha bármely $A,B\subset Y$ diszjunkt
+     halmaz esetén $R^{-1}(A)\cap R^{-1}(B)=\emptyset$.
+  3. 
+     1) Legyenek $A$, $B$ és $C$ halmazok. Bizonyítsuk be a következő
+	egyenlőséget:
+	\begin{equation*}
+	A \setminus \Bigl\{ A \setminus \bigl[ B \setminus ( B
+	\setminus C ) \bigr] \Bigr\}
+	= A \cap B \cap C
+	\end{equation*}
+     2) Bizonyítsuk be, hogy tetszőleges $A$, $B$ halmazokra ha
+	$A\subset B$, akkor $\wp(A)\subset \wp(B)$.
+  4. Bizonyítsuk be hogy $n^3<3^n$, ha $n>3$.
+  5. Legyenek $X$ és $Y$ részbenrendezett halmazok. Legyen $(x,y)\le
+     (x',y')$, akkor ha $(x<x')$ vagy $(x=x'\land y\le y')$.
+     Bizonyítsuk be, hogy az így kapott reláció $X\times Y$ halmazon egy
+     részben\-rendezés. (Ezt lexikografikus rendezésnek nevezzük.)
+  6. Adj zárt formulát az $a_1=1$, $a_2=3$ és $a_n=4a_{n-1}-3a_{n-2}$
+     rekurzióval definiált sorozat $n$-edik tagjára.
+  7. 
+     1) Legyen $w=u+iv$, $u,v\in \mathbb{R}$. Mutassuk meg, hogy ha
+	$x=\sqrt{\frac{|w|+u}{2}}$, $y=\sqrt{\frac{|w|-u}{2}}$ akkor
+	$z=x+iy$-ra $v\ge0$ esetén $z^2=w$, ha pedig $v\le0$, akkor
+	$\bar z^2=w$.
+     2) Adjuk meg az algebrai alakban a
+	$\left(\frac{1+i\sqrt3}{1-i}\right)^{20}$.
+     3) Adjuk meg $i$ és $-1+i$ összes harmadik gyökét, valamint $64$
+	és$-64$ összes hatodik gyökét.
+
+* Diszkrét matematika 1. (emelt) 2. pzh (2014-2015 ősz) 
+  1. 
+     1) Legyenek $a_1, a_2, \ldots a_{51}$ egész számok az $[1,100]$
+	intervallumból.  Bizonyítsuk be, hogy van kettő közöttük, amely
+	relatív prím.
+     2) Egy postahivatalban 10 különböző képeslapot árulnak.
+	Hányféleképpen vásárolhatunk 12 képeslapot?
+
+  2. 
+     1) Hányféleképpen helyezkedhet el 12 ember három szobában, ha az
+	elsőben 2, a másodikban 6, a harmadikban pedig 4 fér el?
+     2) Bizonyítsuk be, hogy ha $z,w,v\in\mathbb{C}$ és $k,m,n\in
+        \mathbb{N}$, akkor $\sum_{k=0}^n (-1)^k
+        \binom{z}{k}=(-1)^n\binom{z-1}{n}$.
+  3. Egy $n$ házaspárból álló társaság táncol. Hány olyan eset van,
+     amikor senki sem táncol a saját feleségével?
+  4. Bizonyítsuk be, hogy tízes számrendszerben ábrázolt bármelyik
+     háromjegyű természetes számot kétszer egymás mellé írjuk, akkor a
+     kapott hatjegyű szám osztható 7-el, 11-el és 13-mal.
+  5. 
+    1. Oldjuk meg az alábbi egyenleteket az egész számok körében a
+       bővített Euklideszi algoritmussal, feltéve ha van megoldás:
+       1. $27x+72y=4$;
+       2. $117x-63y=36$.
+    2. Keressük meg a $14x\equiv 84 \pmod{21}$ kongruencia inkongruens
+       megoldásait.
+  6. Határozzuk meg a $63^{493^{640}}$ szám utolsó két számjegyét tízes
+     számrendszerben.
+  7. Oldjuk meg az alábbi kongruencia rendszert:
+     \begin{align*}
+     3x &\equiv 1 \pmod{4} \\
+     5x &\equiv 2 \pmod{7} \\
+     7x &\equiv 8 \pmod{9} 
+     \end{align*}

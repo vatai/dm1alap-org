@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[magyar]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+\textwidth = 180mm
+\hoffset = -30mm
+\textheight = 265mm
+\voffset = -30mm
+
+
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+\begin{large}
+\noindent \textbf{Diszkrét Matematika 1.} Írásbeli vizsga, 2016. január 18. (90 perc)
+\end{large}
+\end{center}
+
+{\noindent NÉV: \\ NEPTUN kód:\\ (Leendő) szakirány:\\}
+\section{Alapvető fontosságú fogalmak}
+A következő hat kérdésre 1-1 pont kapható. Ebből legalább 4 pontot kell szerezni.
+\begin{enumerate}\setlength{\itemsep}{3cm}
+
+\item Írja fel a szorzásra vonatkozó Moivre-azonosságot. \vspace{-.5cm}
+\item Mik a kvantorok, és mi a jelentésük?
+\item Adjunk meg (rendezett párok halmazaként) három tranzitív relációt az $\{1, 2, 3\}$ alaphalmazon.
+\item Hányféle dobás lehetséges 4 teljesen egyforma dobókockával?
+\item Húzza alá a megoldható kongruenciákat: $21x\equiv 7\pmod 14$;  $30x\equiv 4\pmod 5$;  $11x\equiv 4\pmod {10}$;  $4132x\equiv 1\pmod {4133}.$\vspace{-1.5cm}
+\item Mikor mondjuk az egészek körében, hogy két szám kongruens egymással modulo $m$?
+\end{enumerate}
+
+\newpage
+\section{Definíciók, tételkimondások}
+A következő nyolc kérdésre 1-1 pont kapható. 
+\begin{enumerate}\setlength{\itemsep}{2.2cm}
+
+\item Írja fel a negyedik egységgyököket \emph{trigonometrikus} alakban.
+\item Definiálja a részbenrendezést.
+\item Adjon meg egy olyan $f\colon \mathbb{N}\to \mathbb{N}$ függvényt, mely szürjektív, de nem injektív.
+\item Definiálja a disztributivitást, és mutasson példát.
+
+\item Bontsa fel a zárójelet a binomiális tétel segítségével: $(2x-3)^5$.
+\item Hány olyan 7 hosszú sorozat képezhető a latin ábécé 26 eleméből, melyben csupa különböző betű szerepel (nem kell kiszámolni a konkrét számot, elég csak a képlet)?
+\item Hogyan definiáljuk az Euler-féle $\varphi$ függvényt?
+\item Mi a $47^{1281}$ utolsó két számjegye tízes számrenszerben?
+
+
+\end{enumerate}
+
+\newpage
+\section{Bizonyítások}
+A következő három bizonyításra 3-3 pont kapható. Ebből legalább 3 pontot el kell érni (tételkimondásért nem jár pont).
+Az összpontszám alapján a ponthatárok: 10-től 2-es, 14-től 3-as, 18-tól szóbelizhet a 4-es, illetve 5-ös osztályzatért.
+\begin{enumerate}
+
+\item Mondjon ki és bizonyítson be a halmazok komplementerének tulajdonságai közül 5-öt.
+\item Mondja ki és igazolja az ismétlés nélküli kombinációk számáról szóló állítást.
+\item Mondjon ki és igazoljon az oszthatóság tulajdonságai közül 8-at a természetes számok körében.
+
+\end{enumerate}
+
+
+\section{Szóbeli kiváltását lehetővé tevő opcionális tétel}
+Ez a feladat maximálisan 5 pontot ér. Ha ebből legalább 3 pont megvan, és az összpontszám eléri a 20, illetve 24 pontot, akkor 4-es, illetve 5-ös érdemjegyet ajánlunk.
+
+Legyen $X$ az $\mathbb{N}$ véges részhalmazainak halmaza. Ez
+részbenrendezett halmaz a ,,részhalmaza'' relációval (legkisebb eleme
+az üres halmaz). Legyen $Y=\mathbb{N}$, ezen az ,,osztója'' relációt
+tekintve szintén egy részbenrendezést kapunk ($a\preccurlyeq b$, ha $a$
+osztója $b$-nek).
+
+\begin{enumerate}
+
+\item Mi $Y$ legkisebb eleme?
+
+\item Legyen $p_0 = 2, p_1 = 3, p_2 = 5, \ldots$ a prímszámok
+sorozata. Tekintsük a következő $f \colon X \to Y$ leképezést:
+$f(A) = \prod_{k\in A} p_k$. Mennyi lesz $f(\{0, 1, 2\})$, illetve
+$f(\{1, 3, 5\})$?
+
+\item Injektív, szürjektív, illetve bijektív függvény-e $f$? Indokoljunk.
+
+\item Igaz-e, hogy $f$ monoton növő, illetve szigorúan monoton növő?
+
+\item Legyen $A$ egy $n$ elemű halmaz. Hány eleme van az $\{y\in Y\mid
+y\preccurlyeq f(A)\}$ halmaznak?
+
+\end{enumerate}
+
+
+\end{document}

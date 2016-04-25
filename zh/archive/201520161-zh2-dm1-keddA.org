@@ -1,0 +1,110 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+
+* Diszkrét matematika 1 - Második zárthelyi dolgozat A 
+  
+  Számológép használata megengedett (kivéve grafikus illetve
+  programozható számológép). Időtartam: 90 perc. Minden feladat 10
+  pontot ér, a 2-es, 3-as, 4-es, 5-ös pont\-határa: 20, 30, 40, 50.
+  
+  \medskip
+
+  Réges-régen, egy messzi--messzi galaxisban dúl a /Galaktikus
+  polgár\-háború/ a /Lázadó szövetség/ és a /Galaktikus birodalom/
+  között.
+
+  1. Az alábbi feladatokban adjuk meg a lehetőségek számát.
+     
+     1) Hányféleképp tudunk 5, sorszámmal rendelkező A280-as puskát
+        kiosztani 8 katonának ha egy katona legfeljebb egy puskát
+        kaphat?
+	# A
+
+     2) Hányféleképp tudunk 5, sorszámmal rendelkező CryoBan gránátot
+        kiosztani 8 katonának ha egy katona több gránátot is kaphat?
+	# A
+
+     3) Hányféleképp tud Darth Vader 50 roham\-osztagosból választani
+        33-at, hogy fésüljék át a sivatagot? 
+	# A
+
+     4) Hányféleképp lehet 22 üzemanyag cellát kiosztani 16 TIE
+        vadász\-hajóra, ha egy hajóra több üzemanyag\-cella is
+        kiosztható?
+	# A
+
+     5) Hányféleképpen tud Darth Vader kiosztani 33 birodalmi
+        roham\-osztagost egy egy\-személyes TIE vadász\-hajóba, egy
+        két\-személyes TIE bombázóba, egy tíz személyes
+        szállító\-hajóba és a többit a Halál\-csillagra?
+	# A
+
+  2. Hányféleképpen lehet az Ezer\-éves Sólyomban, egy lopakodó
+     űrhajóban és két megkülönböztetett teherszállító hajóba
+     elszállítani 32 katonát ha:
+     # A
+     
+     1) a katonák között nem teszünk különbséget?
+
+     2) a katonák azonosítókkal rendelkeznek 1-től 32-ig, és mind a
+        négy hajó 8 katonát tud szállítani?
+
+     3) a katonák között nem teszünk különbséget és mind a négy hajó
+        legalább 6 katonát szállít?
+
+     4) a katonák azonosítókkal rendelkeznek 1-től 32-ig, és az
+        Ezer\-éves Sólyomba négyen, a lopakodóba ketten és a két
+        teherszállítóba 12-12 katonát tud szállítani?
+
+  3. A Halál\-csillagon a roham\-osztagosoknak 0,1,2,3,4,5,6,7,8,9
+     számjegyekből álló, nyolc\-számjegyes azonosítójuk van.  Hány
+     roham\-osztagos katonát tud elszállásolni a Halál\-csillag
+     (adat\-bázis módosítás nélkül) ha az azonosító:
+
+     1) osztható 7-tel?
+	# A 
+
+     2) 0-val nem kezdődhet?
+	# A
+
+     3) első számjegy paritása egyenlő az utolsó számjegy paritásával?
+	# A
+
+     4) számjegyeiben minden prím számjegy előfordul?
+	# A
+	
+  4. Han Solo a következő számpárokon szeretné gyakorolni a /bővített/
+     euklideszi algoritmust, segítsünk!
+     #+ATTR_LATEX: :environment inparaenum
+     1) $(111,78)$,
+     2) $(18,44)$,
+     3) $(50,121)$,
+     4) $(89,51)$.
+
+  5. Oldjuk meg az alábbi feladatokat, azaz valamilyen formában adjuk
+     meg az összes $x$ értéket, melyek igazzá teszik (többféle
+     megoldási mód is elfogadható, de csak a megoldást nem fogadjuk
+     el, mindenképpen meg kell mondani, hogy jött ki): [fn:: Segítség:
+     lehet, hogy érdemes az előző feladat után nekilátni ennek.]
+
+     #+ATTR_LATEX: :environment inparaenum
+     1) $78x \equiv 6 \pmod {111}$; 
+     2) $44x \equiv 3 \pmod {18}$;
+     3) $50x \equiv 2 \pmod {121}$;
+     4) $51x \equiv 7 \pmod {89}$.
+
+  6. Választható az alábbi két feladat közül. A választást tüntessük
+     fel a beadott lapon.
+
+     6D: Legyen $a_1,a_2,\ldots,a_{100}$ egész számok egy sorozata.
+     Bizonyítsuk be, hogy egy alkalmas rész\-sorozatra $a_{j_1} +
+     a_{j_2} + \cdots + a_{j_n}$ osztható 100-zal!
+
+     6K: Darth Vader próbálja sorokba és oszlopokba rendezni a
+     roham\-osztagosokat ha miden sorba:
+     - 5 katonát parancsol, az utolsó sorba 3 jut,
+     - 7 katonát parancsol, az utolsó sorba 1 jut,
+     - 8 katonát parancsol, az utolsó sorba 4 jut. 
+       
+     Hány roham\-osztagos van a halál\-csillagon, ha tudjuk, hogy a
+     bázis befogadóképessége 250 katona?

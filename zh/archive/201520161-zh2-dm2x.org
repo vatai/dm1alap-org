@@ -1,0 +1,74 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+#+TITLE:
+#+AUTHOR:
+#+DATE:
+
+* Diszkrét matematika 2. - Második zárthelyi dolgozat - Név/NK: 
+  1. Keressük meg az összes \(a\)-t és \(b\)-t  úgy, hogy
+     \(x^5 + 2x^2 +ax +b\) osztható legyen \(x^3 - 2ax + 2\)-vel
+     \(\mathbb{Z}, \mathbb{Q}, \mathbb{R}\), illetve \(\mathbb{C}\)
+     felett.
+  2. Keressük meg a \(x^6+12x^5+12x^4-224x^3-144x^2+1728x-1728 \in
+     \mathbb{Q}[x]\) polinom többszörös gyökeit és adjuk meg
+     mindegyiknek a multiplicitását.
+  3. Határozzuk meg a \(x^5 + x^4 - x^3 - 2x - 1\) és \(3x^4 + 2x^3 +
+     x^2 + 2x - 2\) polinomok legnagyobb közös osztóját
+     \(\mathbb{Z}_5[x]\)-ben!
+  4. Az kódokról döntsük el, hogy melyik felbontható, prefix, vesszős,
+     illetve egyenletes. Rajzoljuk fel a kód\-fát is.
+     #+ATTR_LATEX: :environment inparaenum
+     1) =122,1122,221,222,0101,01012,001,0020=;
+     2) =000,001,010,011,100,101=;
+     3) =0,10,00=.
+  5. Az $a,b,c, d,e,f, g,h,i$ betűkhöz tartozó $0,11; 0,03; 0,21;
+     0,01; 0,08; 0,27; 0,14; 0,13; 0,02$ eloszlásokhoz határozzuk meg
+     a *bináris* illetve *ternáris* Huffman--kódot. Hasonlítsuk össze
+     az átlagos kód\-hosszat az entrópiával.
+  6. Legyen egy \(\mathbb{F}_2\) feletti lineáris kód generátor\-mátrixa
+     \[ \begin{pmatrix} 
+     1 & 1 & 0\\ 
+     0 & 1 & 0\\ 
+     1 & 0 & 1\\ 
+     0 & 1 & 1\\ 
+     1 & 1 & 1\\ 
+     1 & 0 & 1 \end{pmatrix} \] Adjon meg egy olyan
+     generátor\-mátrixot, amelyhez ugyanez a kód\-tér tartozik, de a
+     mátrixának első három sora egység\-mátrix. Adja meg a kód egy
+     ellenőrző mátrixát. Milyen kód\-szó felel meg az ~110~ üzenetnek?
+     Mi a ~101101~ üzenet szindrómája, hogyan kell dekódolni?
+\vfill
+* Diszkrét matematika 2. - Második zárthelyi dolgozat - Név/NK: 
+  1. Keressük meg az összes \(a\)-t és \(b\)-t  úgy, hogy
+     \(x^5 + 2x^2 +ax +b\) osztható legyen \(x^3 - 2ax + 2\)-vel
+     \(\mathbb{Z}, \mathbb{Q}, \mathbb{R}\), illetve \(\mathbb{C}\)
+     felett.
+  2. Keressük meg a \(x^6+12x^5+12x^4-224x^3-144x^2+1728x-1728 \in
+     \mathbb{Q}[x]\) polinom többszörös gyökeit és adjuk meg
+     mindegyiknek a multiplicitását.
+  3. Határozzuk meg a \(x^5 + x^4 - x^3 - 2x - 1\) és \(3x^4 + 2x^3 +
+     x^2 + 2x - 2\) polinomok legnagyobb közös osztóját
+     \(\mathbb{Z}_5[x]\)-ben!
+  4. Az kódokról döntsük el, hogy melyik felbontható, prefix, vesszős,
+     illetve egyenletes. Rajzoljuk fel a kód\-fát is.
+     #+ATTR_LATEX: :environment inparaenum
+     1) =122,1122,221,222,0101,01012,001,0020=;
+     2) =000,001,010,011,100,101=;
+     3) =0,10,00=.
+  5. Az $a,b,c, d,e,f, g,h,i$ betűkhöz tartozó $0,11; 0,03; 0,21;
+     0,01; 0,08; 0,27; 0,14; 0,13; 0,02$ eloszlásokhoz határozzuk meg
+     a *bináris* illetve *ternáris* Huffman--kódot. Hasonlítsuk össze
+     az átlagos kód\-hosszat az entrópiával.
+  6. Legyen egy \(\mathbb{F}_2\) feletti lineáris kód generátor\-mátrixa
+     \[ \begin{pmatrix} 
+     1 & 1 & 0\\ 
+     0 & 1 & 0\\ 
+     1 & 0 & 1\\ 
+     0 & 1 & 1\\ 
+     1 & 1 & 1\\ 
+     1 & 0 & 1 \end{pmatrix} \] Adjon meg egy olyan
+     generátor\-mátrixot, amelyhez ugyanez a kód\-tér tartozik, de a
+     mátrixának első három sora egység\-mátrix. Adja meg a kód egy
+     ellenőrző mátrixát. Milyen kód\-szó felel meg az ~110~ üzenetnek?
+     Mi a ~101101~ üzenet szindrómája, hogyan kell dekódolni?
+

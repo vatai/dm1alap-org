@@ -1,0 +1,42 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+#+TITLE:
+#+AUTHOR:
+#+DATE:
+
+Diszkrét matematika 2. - Első zárthelyi dolgozat - Név/NK: 
+
+1. Van e olyan 8 szög\-pontú egyszerű gráf, melyben a csúcsok foka rendre:
+   #+ATTR_LATEX: :environment inparaenum
+   1) $7,7,5,5,3,3,1,1$;
+   2) $7,7,7,4,4,4,0,0$;
+   3) $6,4,3,3,2,2,2,2$;
+   4) $7,6,5,4,3,2,1,1$.
+2. Ha egy hurok\-mentes véges gráf minden csúcsa páros, melynek minden
+   csúcsának fok\-száma 4, akkor bizonyítsuk be, hogy a gráf élei
+   színezhetőek úgy kék és piros színnel, hogy minden csúcshoz
+   pontosan két kék és két piros illeszkedik.
+3. Hat versenyző kör\-mérkőzést játszik.  Bizonyítsuk be, hogy bármely
+   időpontban van három olyan versenyző, akik már mind játszottak
+   egymással, vagy három olyan, akik közül semelyik kettő nem játszott
+   még.
+4. Jelölje $D_{10}$ a szabályos 10-szög egybevágó leképezéseit ahol a
+   $\varphi$ az óramutató forgásának irányával ellenkező, $2\pi/10$
+   radiánnal való elforgatást, $\tau$ pedig a függőleges szimmetria
+   tengelyre való tükrözést jelöli.  Vizsgáljuk meg a $(D_{10},\circ)$
+   diéder\-csoportot: Legyen $g_1=\tau \circ \varphi^3 \circ \tau^3
+   \circ \varphi^5$ és $g_2=\varphi^6\circ \tau \circ \varphi^7$-
+   #+ATTR_LATEX: :environment inparaenum
+   1) Soroljuk fel $D_{10}$ elemeit $\varphi$ és $\tau$ segítségével
+   2) Egyszerűssítsük $g_1$ és $g_2$ -t!
+   3) Mi $g_1$, $g_2$ illetve $g_1 \circ g_2$ rendje.
+   4) Soroljuk fel $\langle g_1 \rangle$, $\langle g_1 \rangle$ és
+      $\langle g_1, c1 \rangle$.
+5. Legyen $\mathbb{L}=\{\uparrow,\downarrow\}$, ahol $\uparrow$ az
+   igazat, és $\downarrow$ pedig a hamist jelenti. Igaz e, hogy
+   $(\mathbb{L},\land)$ grupoid, fél\-csoport, monoid illetve csoport?
+   Igaz e hogy ciklikus?
+6. Legyen $(G,\cdot)$ véges, páros rendű csoport. Bizonyítsuk be, hogy
+   $G$ -nek van olyan az egységelemtől különböző eleme, amely inverze
+   önmaga.
+

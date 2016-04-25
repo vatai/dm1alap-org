@@ -1,0 +1,62 @@
+# -*- mode: org; mode: flyspell; -*-
+#+SETUPFILE: zh-inc.org
+
+* Discrete mathematics 1 - First test
+  You can use a calculator (but only if it is not programable). Every
+  problem is worth 10 points, you need 20, 30, 40, 50 points for the
+  grades 2, 3, 4, 5.
+
+  1. What is the rectangular form of the following numbers:
+     1) $(50-10i)(20+90i)$;
+     2) $(3-7i)^2$;
+     3) $(18-12i)/(9+15i)$;
+     4) $(-i)^{-11}$;
+     5) $(2+2i)^{10}$.
+  2. Using the polar form, calculate the polar and rectangular form of
+     $z$, then find all the complex $w$ values, so that $w^3=z$ for \[
+     z = \frac{(1-i)^{30}}{(1+\sqrt{3}i)^{16}} \]
+
+  3. For each of the following conditions, give two complex numbers
+     which satisfy them (remember, two numbers for each):
+     1) $z^3 = |z|$;
+     2) $z = \overline{z}$;
+     3) $\operatorname{Re}(z)=-2\operatorname{Im}(z)$;
+     4) $|iz| = |-2iz^3|$;
+     5) $|z + 5 - 2i| = |z|$.
+
+  4. In a fictional universe, we use the following predicates: $S(x):
+     x$ is a sorcerer, $W(x): x$ is a witch, $M(x): x$ is a muggle,
+     $F(x): x$ female, $A(x): x$ animal, $H(x): x$ human, $P(x,y): x$
+     is the patronus of $y$, $C(x,y): x$ is the child of $y$.  So
+     $P(stag, Harry)$ means that Harry's patronus is a stag.  Express
+     the following sentences using logical formulas:
+     1) Hermione's patronus is an otter;
+     2) Every patronus is an animal;
+     3) Sorcerers nor witches are not muggles;
+     4) There are animals which are patronuses of witches only;
+     5) There are witches, which have the same patronus as their mother.
+ 
+  5. Let $A = \{1, 3, 5, 7\}$, $B = \{1, 2, 3, 4,5,6,7,8\}$. Calculate
+     $A\Delta B$. Give three-three different $C$ sets, for each of the
+     following statements to be true separately:
+     1) $B \cap C \subseteq A$;
+     2) $\{1, 2\} \subseteq (A \Delta B) \Delta C$;
+     3) $(A \Delta C) \Delta B$ contains only even numbers.
+
+  6. You can choose from the following two problems.
+
+     6S: Under exactly which conditions is it true that $A \cup B = A
+     \Delta B$? Prove your statement!  Which are the sets $A$, for
+     which there exists a set $B$ so that $A \cup (B \setminus A) = (A
+     \setminus B) \Delta B$?  Explain your answer.
+
+     6R: For the following $R$ and $S$ relation, decide if they are
+     reflexive, symmetric, transitive and anti-symmetric on the sets
+     $X$ (for $R$) and $Y$ (for $S$), and give $R\circ S$ and $S\circ
+     R$ as a set of order pairs:
+   
+     - $R = \{(1,1), (1, 2), (2, 1), (1,3), (3,1), (2, 2), (2,4),
+       (4,2) \}$, $X = \{1, 2, 3, 4\}$.
+     - $S = \{(x, y) \mid x, y\in \mathbb{N}, (x-y)^4 < 10\}$, $Y =
+       \mathbb{N}$.
+

@@ -1,0 +1,47 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+* Diszkrét matematika 1 - Második zárthelyi dolgozat - Név/NK:
+  1. 
+     1) Hányféleképpen tudjuk feldíszíteni a karácsony\-fát 20
+	(különböző) kis angyalkával, ha a fának 88 ága van, és
+	mindegyik ágra legfeljebb egy díszt tehetünk?
+     2) Hányféleképpen tudjuk feldíszíteni a karácsony\-fát 25 vörös
+	gömbbel, ha a fának 88 ága van, és mindegyik ágra legfeljebb
+	egy díszt tehetünk?
+     3) Hányféleképpen tud 10 ember leülni egy tábor\-tűz köré?
+     4) Hányféleképpen húzhatunk ki 10 kártyát egy csomag francia
+        kártyából úgy, hogy közöttük legyen legalább 2 ász?
+  2. 
+     1) A Mikulás indul ajándékokat osztogatni! Hányféleképp
+        választhat 42 ajándékot 35 fajta ajándék közül?
+     2) Hányféleképp tudja a Mikulás szétosztani a 13 különböző
+        ajándékát 3 csizmába?
+	# JAVíTVA
+     3) Hányféleképpen tudja a Mikulás szétosztani a 16 különböző
+        ajándékát 4 csizmába, ha minden csizmába 4 ajándék jut? 
+	# JAVÍTVA
+     4) Öt roham\-osztagos öt lázadó katonával találja szemben magát!
+        Csodák csodája, a roham\-osztagosoknak sikerül lelőniük a
+        katonákat, de ez nyilván puszta szerencse, hiszen senki sem
+        találta el a szemben lévő katonát. Hányféleképpen történhetett
+        ez meg?
+  3. Legyenek $a_1,\ldots,a_{100}$ pozitív egész szám\-ok. Mutassuk
+     meg, hogy létezik $i\le j$, hogy $\sum_{k=i}^j a_k$ osztható
+     100-zal!
+  4. Adjunk zárt formulát az $a_0=0, a_1=1, a_n = 5a_{n-1} - 6a_{n-2}$
+     rekurzióval definiált sorozat \(n\)-edik tagjára!
+  5. Mi $2014^{2015^{2016}}$ utolsó két számjegye 9-es
+     számrendszerben?
+  6. Oldjuk meg a következő szimultán kongruencia rendszert: $3x \equiv 1
+     \pmod4, 5x \equiv 2 \pmod7, 7x \equiv 8 \pmod9$.
+  7. Hányféleképp tudunk $u$ és $v$ forintos érméket tenni az
+     asztalra, hogy az összértékük $w$ legyen, ha:
+     #+ATTR_LATEX: :environment inparaenum
+     1) $u=50,  v=75,  w=225$;
+     2) $u=13,  v=17,  w=400$;.
+     3) $u=368, v=161, w=22$
+

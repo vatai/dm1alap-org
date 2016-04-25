@@ -1,0 +1,143 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[magyar]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+%\textwidth = 180mm
+%\hoffset = -30mm
+%\textheight = 265mm
+%\voffset = -30mm
+
+
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+\begin{large}
+\noindent \textbf{Sült galamb 1.} Írásbeli vizsga, 2016. január 25. (90 perc)
+\end{large}
+\end{center}
+
+{\noindent NÉV: \\ NEPTUN kód:\\ (Leendő) szakirány:\\}
+\section{Alapvető fontosságú fogalmak}
+A következő hat kérdésre 1-1 pont kapható. Ebből legalább 4 pontot kell szerezni.
+\begin{enumerate}
+
+\item Definiálja a komplex abszolút érték fogalmát. Írjon fel 5 olyan
+  komplex számot algebrai alakban, melyek abszolút értéke
+  $5$. MO: $|z| = \sqrt{x^2+y^2}$ ahol
+  $x=Re(z),y=Im(z)$, példák $|z|=5$-re:
+  $\pm 5$, $\pm 5i$, $\pm 4 \pm 3i$ és $\pm 3 \pm 4i$
+\item Definiálja binér reláció értelmezési tartományát (domain). Mi az
+  alábbi reláció értelmezési tartománya:
+  $R = \{ (x,y)\mid x,y\in \mathbb{N}, x> y\}$? MO:
+  $dmn(R) =\{x : \exists y (x,y)\in R\}$, most $dmn(R)=\mathbb{N}^+$.
+\item Húzza alá az asszociatívakat a következő (binér) műveletek közül
+  (az alap\-halmaz az egész számok halmaza): $(a,b)\mapsto a+b$;
+  $(a,b)\mapsto a-b$; $(a,b)\mapsto ab$; $(a,b)\mapsto
+  \max(a,b)$. (Itt $\max(a,b)$ az $a$ és $b$ számok maximumát
+  jelöli.) MO: A kivonás kivételével mind asszociatívak.
+\item Hány 3 elemű rész\-halmaza van egy $k$ elemű halmaznak?
+  $\binom{k}{3}$
+\item Legalább hány számot kell kiválasztani a 10-nél kisebb
+  természetes számok közül, hogy biztosan legyen köztük olyan, amely
+  osztója a $18$-nak? MO: 6 ui. 18 osztói 1, 2, 3, 6, 9, stb és 0, 4,
+  5, 7, 8 teljesítik a kritériumot, ezekből 5 van, és ha hat számot
+  választunk akkor a skatulya elv alapján lesz legalább egy ami
+  osztója 18-nak.
+\item Definiálja a legnagyobb (kitüntetett) közös osztó fogalmát a
+  természetes számok körében. MO: Az $a,b\in\mathbb{N}$ lnko-ja $d$ ha
+  $d\mid a \land d \mid b$ és ha $d' \mid a \land d' \mid b$ akkor
+  $d' \mid d$.
+\end{enumerate}
+
+\newpage
+\section{Definíciók, tételkimondások}
+A következő nyolc kérdésre 1-1 pont kapható. 
+\begin{enumerate}
+
+\item Definiálja a komplex egységgyök fogalmát, és sorolja fel a
+  negyedik egységgyököket.  MO: $\varepsilon\in\mathbb{C}$ $n$-edik
+  komplex egység\-gyök ha $\varepsilon^n=1$, ekkor
+  $\exists k \in \{ 0,1,\ldots, n-1 \}$ hogy
+  $\varepsilon=\cos\Bigl( \frac{2k\pi}{n}\Bigr) +i \sin\Bigl(
+  \frac{2k\pi}{n}\Bigr)$. A negyedik komplex egység\-gyökök: $\pm 1$,
+  $\pm i$.
+\item Mikor nevezünk tranzitívnak egy relációt? MO: Egy
+  $R\subset X \times X$ homogén binér relációt tranzitívnak nevezünk
+  ha $\forall a,b,c$-re, $aRb \land bRc \Rightarrow aRc$.
+\item Definiálja részbenrendezésnél a minimális, illetve legkisebb
+  elem fogalmát. MO: Legyen $(X,\le)$ egy részben rendezett halmaz,
+  $Y\subset X$, és $x\in Y$. $x$ minimális ha
+  $\lnot \exists y ( y\in Y \land y < x)$
+\item Adjon meg egy olyan $f\colon \mathbb{N}\to\mathbb{N}$ függvényt, mely nem injektív, de szürjektív.
+\item Írja fel a (logikai) szita formulát.
+\item Mondja ki az ismétléses variációk számára vonatkozó tételt.
+\item Definiálja a maradékosztály és a redukált maradékosztály fogalmát.
+\item Mondja ki Eukleidész tételét.
+
+
+
+\end{enumerate}
+
+\newpage
+\section{Bizonyítások}
+A következő három bizonyításra 3-3 pont kapható. Ebből legalább 3 pontot el kell érni (tételkimondásért nem jár pont).
+Az összpontszám alapján a ponthatárok: 10-től 2-es, 14-től 3-as, 18-tól szóbelizhet a 4-es, illetve 5-ös osztályzatért.
+\begin{enumerate}
+
+\item Mondja ki és bizonyítsa a relációkompozíció asszociativitására vonatkozó tételt.
+\item Mondja ki és igazolja az ismétléses kombinációk számára vonatkozó tételt.
+\item Mondja ki és igazolja az egészek körében felbonthatatlanság és a prímtulajdonság egybeeséséről szóló tételt.
+
+\end{enumerate}
+
+
+\section{Szóbeli kiváltását lehetővé tevő opcionális tétel}
+Ez a feladat maximálisan 5 pontot ér. Ha ebből legalább 3 pont megvan, és az összpontszám eléri a 20, illetve 24 pontot, akkor 4-es, illetve 5-ös érdemjegyet ajánlunk.
+
+A binomiális tétel segítségével beláttuk, hogy $n\leq 1$ esetén $2^n = (1+1)^n =
+\binom{n}{0} + \binom{n}{1}  + \binom{n}{2} + \cdots$, illetve azt, hogy
+$0 = (1-1)^n = \binom{n}{0} - \binom{n}{1}  + \binom{n}{2} -
+\cdots$. A két egyenletet összeadva látható, hogy a
+Pascal-háromszög $n$-edik sorának minden második elemének összege,
+vagyis $\binom{n}{0} + \binom{n}{2} + \binom{n}{4} + \cdots = 2^{n-1}$.
+
+Az alábbiakban levezetünk egy képletet a Pascal háromszög minden
+negyedik elemének összegére, vagyis a $\binom{n}{0} + \binom{n}{4} +
+\binom{n}{8} + \cdots$ összegre.
+
+\begin{enumerate}
+
+
+\item Legyen $k$ egész szám. Igazoljuk, hogy ha $k$ osztható
+4-gyel, akkor $i^{0} + i^{k} + i^{2k} + i^{3k} = 1$.
+
+
+\item Legyen $k$ egész szám. Igazoljuk, hogy ha $k$ nem osztható
+4-gyel, akkor $i^{0} + i^{k} + i^{2k} + i^{3k} = 0$.
+
+\item Írjuk fel a binomiális tétel segítségével az $S_k = (1+i^k)^n$
+összegeket a $k=0, 1, 2, 3$ értékekre (az $i^k$ alak helyett a konkrét
+értékkel dolgozzunk).
+
+\item Felhasználva az első két pontot, az $S_0+S_1 + S_2 + S_3$ összeg
+vizsgálatával adjunk képletet az $\binom{n}{0} + \binom{n}{4} +
+\binom{n}{8} + \cdots$ összegre.
+
+\item Milyen $n$ értékekre lesz igaz, hogy $\binom{n}{0} + \binom{n}{4} +
+\binom{n}{8} + \cdots = 2^{n-2}$?
+
+
+
+\end{enumerate}
+
+
+\end{document}

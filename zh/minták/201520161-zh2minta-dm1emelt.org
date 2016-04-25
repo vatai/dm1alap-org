@@ -1,0 +1,47 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu"; -*-
+#+SETUPFILE: zh-inc.org
+
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+
+* Diszkrét matematika 1 - 2. ZH, Minta ZH
+
+  1. Hányféleképpen lehet tíz különböző jutalmat kiosztani
+     harminc versenyző közt, ha
+     1) A jutalmak különbözők, és egy versenyző legfeljebb egyet kaphat;
+     2) A jutalmak különbözők, és egy versenyző többet is kaphat;
+     3) A jutalmak egyformák, és egy versenyző legfeljebb egyet kaphat;
+     4) A jutalmak egyformák, és egy versenyző többet is kaphat;
+     5) Hányféleképp lehet tíz jutalmat 5 versenyző közt
+        szétosztani, ha mindenkinek kell kapnia legalább egyet, és
+        a jutalmak egyformák?
+
+  2. Hányféleképpen lehet 100 számozott nagy dobozban elhelyezni 10
+     kis golyót, ha
+     1) a golyók is számozottak;
+     2) a golyók számozottak, és minden nem üres dobozba pontosan
+        kettőt kell tenni;
+     3) a golyók egyformák, és minden nem üres dobozba pontosan kettőt
+        kell tenni;
+     4) a golyók egyformák, és szomszédos dobozokba nem szabad tenni;
+     5) a golyók is számozottak (egytől tízig), és a golyókat úgy kell
+        elhelyezni, hogy a golyó és a doboz paritása (párossága)
+        egyforma legyen?
+
+  3. Hány olyan 100 jegyű szám van kettes számrendszerben, melyben
+     minden számjegy előfordul? Hány ilyen van tízes számrendszerben?
+
+  4. Oldjuk meg az alábbi kongruenciákat:
+     #+ATTR_LATEX: :environment inparaenum
+     1) $3x \equiv 4 \pmod{7}$;
+     2) $2x \equiv 5 \pmod{14}$;
+     3) $6x \equiv 4 \pmod{10}$;
+     4) $34x \equiv 2 \pmod{55}$;
+     5) $x^2 \equiv 3 \pmod{5}$.
+
+  5. Mi $1789^{1969^{2013}}$ utolsó két számjegye 10-es
+     számrendszerben?  Indokolja meg a választ!
+
+  6. Egy szigeten hét- és kilenc\-fejű sárkányok élnek. Hányan lehetnek,
+     ha összesen 107 fejük van?

@@ -1,0 +1,92 @@
+#+SETUPFILE: zh-inc.org
+
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+* Diszkrét matematika 1 - Első zárthelyi dolgozat - Név/NK:
+  
+  1. Réges régen, egy messzi--messzi galaxisban, adottak a következő
+     predikátumok: $J(x)$: $x$ Jedi lovag, $P(x)$ : $x$ padawan,
+     $S(x)$: $x$ Sith, $T(x,y)$: $x$ tiszteli $y$ -t, $M(x,y)$: $x$
+     mestere $y$ -nak.  Formalizáld a következő mondatokat.
+     1) Lea nem tiszteli Hant, de tiszteli Luke-ot.
+     2) Minden Jedi a világos oldalon áll, minden Sith a sötét oldalon
+        áll.
+     3) Minden padawan Jedi lovag, de nem minden Jedi lovag padaván.
+     4) Van olyan Jedi lovag, akinek csak egy padawanja van.
+     5) A Sith-ek mindig ketten vannak, egy tanítvány és egy mester.
+     # Predikátumok
+
+  2. Bizonyítsd be hogy minden $A,B,C$ halmazra $A \cap (B \Delta C) =
+     (A \cap B) \Delta (A \cap C)$.
+     # Halmaz
+
+  3. Fejezzük ki a következő halmazt metszetek segítségével: $A
+     \setminus (A \setminus (B \setminus (B \setminus C)))$.
+
+  4. Legyen $m>2$ rögzített egész szám.  Bizonyítsuk be, hogy a
+     $a\equiv_m b \iff \exists k \in \mathbb{Z}: km=a-b$ ekvivalencia
+     reláció az egész számok halmazán.
+     # ekvivalencia reláció
+
+  5. Adott $z,w\in\mathbb{C}$ (ahol $z\neq w$) egy négyzet átlójának
+     két végpontja, azaz két nem szomszédos csúcsa a négyzetnek.
+     Adjuk meg a másik két csúcsát a négyzetnek (mint $z$ és $w$
+     függvénye).  Mi a másik két csúcs, ha $z=1+3i$ és $w=4-2i$?
+     # nehéz komplex
+
+  6. A trigonometrikus alak segítségével számítsa ki a $z$ értékét
+     trigonometrikus és algebrai alakban is, majd adja meg az összes
+     olyan $w$ komplex számot trigonometrikus alakban, melyre $w^5=z$.
+     \[ z = \frac{(-1+i)^{34}}{(-\sqrt{3}-i)^{16}} \]
+     # gyök vonás trigonometrikus 
+
+  7. Legyen $w=u+iv$, $u,v\in \mathbb{R}$. Mutassuk meg, hogy ha
+     $x=\sqrt{\frac{|w|+u}{2}}$, $y=\sqrt{\frac{|w|-u}{2}}$ akkor
+     $z=x+iy$-ra $v\ge0$ esetén $z^2=w$, ha pedig $v\le0$, akkor $\bar
+     z^2=w$.
+     # nehéz complex
+#+LATEX: \vfill
+* Diszkrét matematika 1 - Első zárthelyi dolgozat - Név/NK:
+  
+  1. Réges régen, egy messzi--messzi galaxisban, adottak a következő
+     predikátumok: $J(x)$: $x$ Jedi lovag, $P(x)$ : $x$ padawan,
+     $S(x)$: $x$ Sith, $T(x,y)$: $x$ tiszteli $y$ -t, $M(x,y)$: $x$
+     mestere $y$ -nak.  Formalizáld a következő mondatokat.
+     1) Lea nem tiszteli Hant, de tiszteli Luke-ot.
+     2) Minden Jedi a világos oldalon áll, minden Sith a sötét oldalon
+        áll.
+     3) Minden padawan Jedi lovag, de nem minden Jedi lovag padaván.
+     4) Van olyan Jedi lovag, akinek csak egy padawanja van.
+     5) A Sith-ek mindig ketten vannak, egy tanítvány és egy mester.
+     # Predikátumok
+
+  2. Bizonyítsd be hogy minden $A,B,C$ halmazra $A \cap (B \Delta C) =
+     (A \cap B) \Delta (A \cap C)$.
+     # Halmaz
+
+  3. Fejezzük ki a következő halmazt metszetek segítségével: $A
+     \setminus (A \setminus (B \setminus (B \setminus C)))$.
+
+  4. Legyen $m>2$ rögzített egész szám.  Bizonyítsuk be, hogy a
+     $a\equiv_m b \iff \exists k \in \mathbb{Z}: km=a-b$ ekvivalencia
+     reláció az egész számok halmazán.
+     # ekvivalencia reláció
+
+  5. Adott $z,w\in\mathbb{C}$ (ahol $z\neq w$) egy négyzet átlójának
+     két végpontja, azaz két nem szomszédos csúcsa a négyzetnek.
+     Adjuk meg a másik két csúcsát a négyzetnek (mint $z$ és $w$
+     függvénye).  Mi a másik két csúcs, ha $z=1+3i$ és $w=4-2i$?
+     # nehéz komplex
+
+  6. A trigonometrikus alak segítségével számítsa ki a $z$ értékét
+     trigonometrikus és algebrai alakban is, majd adja meg az összes
+     olyan $w$ komplex számot trigonometrikus alakban, melyre $w^5=z$.
+     \[ z = \frac{(-1+i)^{34}}{(-\sqrt{3}-i)^{16}} \]
+     # gyök vonás trigonometrikus 
+
+  7. Legyen $w=u+iv$, $u,v\in \mathbb{R}$. Mutassuk meg, hogy ha
+     $x=\sqrt{\frac{|w|+u}{2}}$, $y=\sqrt{\frac{|w|-u}{2}}$ akkor
+     $z=x+iy$-ra $v\ge0$ esetén $z^2=w$, ha pedig $v\le0$, akkor $\bar
+     z^2=w$.
+     # nehéz complex

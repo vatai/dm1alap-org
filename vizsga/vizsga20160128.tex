@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[magyar]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{t1enc}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+
+\textwidth = 180mm
+\hoffset = -25mm
+\textheight = 265mm
+\voffset = -30mm
+
+
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+\begin{large}
+\textbf{Diszkrét Matematika 1.}\\
+Írásbeli vizsga\\
+2016. január 28. (90 perc)
+\end{large}
+\end{center}
+
+\section{Alapvető fontosságú fogalmak}
+A következő hat kérdésre 1-1 pont kapható. Ebből legalább 4 pontot kell szerezni.
+\begin{enumerate}\setlength{\itemsep}{3cm}
+
+\item Definiálja az n-edik egységgyök fogalmát. Sorolja fel a 4-edik egységgyököket.
+\item Húzza alá az alábbi relációk közül a reflexíveket: (A) ,,osztója'' $\mathbb{N}$-en; (B) ,,$\leq$''  $\mathbb{Z}$-n; (C) ,,$<$''  $\mathbb{Z}$-n; \\(D) $\{(a,b)\mid a,b\in\mathbb{Z}, a-b = 1\}$.
+\item Definiálja a szürjektivitást. Szürjektív-e az alábbi függvény: $f\colon \mathbb{R}\to \mathbb{R}, f(x) = x^2$?
+\item Hány 7 betűs karaktersorozat képezhető a görög ábécé 24 eleméből?
+\item Soroljon fel az egész számok körében vett oszthatóság tulajdonságai közül 5-öt.
+\item Mikor oldható meg az $ax\equiv b \pmod c$ kongruencia ($a, b, c$ egész)?
+\end{enumerate}
+
+\newpage
+\section{Definíciók, tételkimondások}
+A következő nyolc kérdésre 1-1 pont kapható. 
+\begin{enumerate}\setlength{\itemsep}{2.2cm}
+
+\item Adjon meg öt különböző komplex számokból álló $(z,w)$ párt, amire teljesül, hogy $z\cdot w=1$!
+\item Hogy szól az osztásra  vonatkozó Moivre-azonosság?
+\item Mikor nevezünk egy relációt tranzitívnak? Tranzitív-e a ,,részhalmaza'' reláció (mondjuk az egész számok részhalmazainak halmazán mint alaphalmazon)?
+\item Hogy írhatjuk fel két reláció kompozíciójának az inverzét?
+\item Mondja ki a binomiális tételt, és fejtse ki az $(x+2y)^3$ hatványt.
+\item Definiálja halmaz hatványhalmazát. Lehet-e a hatványhalmaz üres?
+\item Mikor hívunk egy számot prímnek az egészek körében (prímtulajdonság)?
+\item Mondja ki a kínai maradéktételt.
+
+
+
+\end{enumerate}
+
+\newpage
+\section{Bizonyítások}
+A következő három bizonyításra 3-3 pont kapható. Ebből legalább 3 pontot el kell érni (tételkimondásért nem jár pont).
+Az összpontszám alapján a ponthatárok: 10-től 2-es, 14-től 3-as, 18-tól szóbelizhet a 4-es, illetve 5-ös osztályzatért.
+\begin{enumerate}
+
+\item Mondja ki és igazolja a szorzásra vonatkozó Moivre-azonosságot.
+\item Mondja ki és igazolja a szita formulát.
+\item Mondja ki és igazolja, hogy végtelen sok prím van (Eukleidész tétele).
+
+\end{enumerate}
+
+
+\section{Szóbeli kiváltását lehetővé tevő opcionális tétel}
+Ez a feladat maximuálisan 5 pontot ér. Ha ebből legalább 3 pont megvan, és az összpontszám eléri a 20, illetve 24 pontot, akkor 4-es, illetve 5-ös érdemjegyet ajánlunk.
+
+Definiáljuk a következő egész sorozatot: $a_0 = 3$, $a_1 = 7$, $a_2 = -2$, és $a_{n} = 4a_{n-1} - 5a_{n-2} + 2a_{n-3}$, ha $n\geq 3$. Az alábbiakban zárt (vagyis a korábbi tagokra nem hivatkozó, önmagában kiszámítható) képletet fogunk keresni $a_n$-re.
+
+\begin{enumerate}
+
+\item Írjuk fel az $a_n$ értékeket $n=0, 1, 2, \ldots, 10$ esetén.
+
+\item Legyen $x_0 = 1$, $x_1 = 1$, $x_2 = 1$, és $x_{n} = 4x_{n-1} - 5x_{n-2} + 2x_{n-3}$, ha $n\geq 3$. Adjunk meg zárt képletet $x_n$-re, és igazoljuk, hogy helyes.
+
+\item Legyen $y_0 = 0$, $y_1 = 1$, $y_2 = 2$, és $y_{n} = 4y_{n-1} - 5y_{n-2} + 2y_{n-3}$, ha $n\geq 3$. Adjunk meg zárt képletet $y_n$-re, és igazoljuk, hogy helyes.
+
+\item Legyen $z_0 = 1$, $z_1 = 2$, $z_2 = 4$, és $z_{n} = 4z_{n-1} - 5z_{n-2} + 2z_{n-3}$, ha $n\geq 3$. Adjunk meg zárt képletet $z_n$-re, és igazoljuk, hogy helyes.
+
+\item Keressünk olyan $\alpha$, $\beta$, $\gamma$ számokat (nem feltétlenül egész), melyekre teljesül $a_n = \alpha x_n + \beta y_n + \gamma z_n$, ha $n=0, 1, 2$. Bizonyítsuk be, hogy ekkor nagyobb $n$-ekre is fennáll az összefüggés. (Ezzel megadtunk egy zárt képletet, ha az $x$, $y$ és $z$ sorozatokra már ismerünk ilyent.)
+
+\end{enumerate}
+
+
+\end{document}

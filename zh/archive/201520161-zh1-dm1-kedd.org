@@ -1,0 +1,135 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+
+* Diszkrét matematika 1 - Első zárthelyi dolgozat[fn:1]
+[fn:1]Számológép használata megengedett (kivéve grafikus
+ill. programozható számológép). Időtartam: 90 perc. Minden feladat 10
+pontot ér, a 2-es, 3-as, 4-es, 5-ös ponthatára: 20, 30, 40, 50.
+
+
+1. Számítsa ki algebrai alakban a következőket:
+   - $(5-i)(1+7i)$;
+   - $(3-2i)^2$;
+   - $(11-2i)/(-2+3i)$;
+   - $i^{-2015}$;
+   - $(-1-i)^{10}$.
+
+2. A trigonometrikus alak segítségével számítsa ki a $z$ értékét
+   trigonometrikus és algebrai alakban is, majd adja meg az összes
+   olyan $w$ komplex számot trigonometrikus alakban, melyre $w^5=z$.
+   \[ z = \frac{(-1-i)^{32}}{(\sqrt{3}-i)^{15}} \]
+
+3. Adjunk meg két-két olyan komplex számot, melyre (külön-külön)
+   teljesülnek az alábbiak:
+   - $z^5 = |z|$.
+   - $z = 1/\overline{z}$.
+   - $\operatorname{Re}(z)=2\operatorname{Im}(z)$.
+   - $|iz| = |-z^3|$.
+   - $|z +3 -i| = |z -4|$.
+
+4. Egy fiktív univerzum leírásához a következő predikátumokat
+   használjuk: $B(x): x$ boszorkány, $V(x): x$ varászló, $M(x):x$
+   mugli, $F(x): x$ férfi, $N(x): x$ nő, $A(x): x$ állat, $E(x): x$
+   ember, $P(x, y): x$-nek $y$ a patrónusa, $G(x,y):x$ gyereke
+   $y$-nak. Így például $P(\text{Harry}, \text{szarvas})$ azt jelenti,
+   hogy Harrynek szarvas a patrónusa. Írjuk fel logikai formulákkal a
+   következő magyar nyelvű mondatokat:
+   - Ron patrónusa terrier.
+   - Minden varázslónak van szülője.
+   - Minden mugli ember, de nem minden ember mugli.
+   - Létezik olyan mugli, akinek mugli az egyik szülője és boszorkány
+     a másik.
+   - A boszorkányok, illetve varázslók patrónusai csak állatok
+     lehetnek.
+ 
+5. Legyen $A = \{1, 3, 5, 7\}$, $B = \{1, 2, 3, 4\}$. Számítsuk ki
+   $A\Delta B$-t. Adjunk meg három-három lehetőséget olyan $C$
+   halmazra, melyre:
+   - $A \cap \overline{C} \subseteq B$.
+   - $\{1, 2\} \subseteq A \Delta (C \cap B)$.
+   - $(A \Delta B) \Delta C$ elemei mind párosak.
+
+6. Választható az alábbi két feladat közül. A választást tüntessük fel
+   a beadott lapon.  
+
+   6H: Mi a pontos (azaz szükséges és elégséges) feltétele annak, hogy
+   $A \subseteq A \Delta B$ teljesüljön?  Állításunkat
+   igazoljuk. Melyek azok az $A$ halmazok, melyekhez létezik olyan
+   $B$, melyre $A \setminus (A \Delta B) = (A \setminus A) \Delta B$?
+   Indokoljunk.
+
+   6R: Az alábbi $R$, illetve $S$ relációkról döntsük el, hogy
+   rendelkeznek-e a reflexív, szimmetrikus, tranzitív, illetve
+   antiszimmetrikus tulajdonsággal az $X$, illetve $Y$
+   halmazon. Számítsuk ki az $R\circ S$ és $S\circ R$ relációkat is:
+   adjuk meg rendezett párok halmazaként.
+   - $R = \{(1, 2), (1, 3), (2, 2), (2,4), (4, 3), (4, 1)\}$,
+     $X = \{1, 2, 3, 4\}$.
+   - $S = \{(x, y) \mid x, y\in \mathbb{N}, (x-y)^2 < 4\}$, $Y =
+     \mathbb{N}$.
+
+* Diszkrét matematika 1 - Első zárthelyi dolgozat[fn:2]
+[fn:2]Számológép használata megengedett (kivéve grafikus
+ill. programozható számológép). Időtartam: 90 perc. Minden feladat 10
+pontot ér, a 2-es, 3-as, 4-es, 5-ös ponthatára: 20, 30, 40, 50.
+
+
+1. Számítsa ki algebrai alakban a következőket:
+   - $(11-2i)(-2+3i)$;
+   - $(2-3i)^2$;
+   - $(1+7i)/(5-i)$;
+   - $i^{-42}+i^{-41}+\cdots +i^{-11}$;
+   - $(-1+i)^{8}$.
+
+2. A trigonometrikus alak segítségével számítsa ki a $z$ értékét
+   trigonometrikus és algebrai alakban is, majd adja meg az összes
+   olyan $w$ komplex számot trigonometrikus alakban, melyre $w^3=z$.
+   \[ z = \frac{(-1+i)^{26}}{(-1+\sqrt{3}i)^{13}} \]
+
+3. Adjunk meg két-két olyan komplex számot, melyre (külön-külön)
+   teljesülnek az alábbiak:
+   - $z^4 = |z|$.
+   - $z=\overline{z}+i$.
+   - $\operatorname{Re}(2z) = \operatorname{Im}(z)$.
+   - $|-iz| = |z^4|$.
+   - $|z +1 -3i| = |z + 2i|$.
+
+4. Egy fiktív univerzum leírásához a következő predikátumokat
+   használjuk: $B(x): x$ boszorkány, $V(x): x$ varászló, $M(x):x$
+   mugli, $F(x): x$ férfi, $N(x): x$ nő, $A(x): x$ állat, $E(x): x$
+   ember, $P(x, y): x$-nek $y$ a patrónusa, $G(x,y):x$ gyereke
+   $y$-nak. Így például $P(\text{Harry}, \text{szarvas})$ azt jelenti,
+   hogy Harrynek szarvas a patrónusa. Írjuk fel logikai formulákkal a
+   következő magyar nyelvű mondatokat:
+   - Ginny patrónusa ló.
+   - Minden muglinak van szülője.
+   - Minden varázsló ember, de nem minden ember varázsló.
+   - Létezik olyan mugli, akinek mugli az egyik szülője és varázsló a
+     másik.
+   - Néhány állat csak varázslóknak patrónusa, boszorkányoknak nem.
+ 
+5. Legyen $A = \{2, 3, 5, 8\}$, $B = \{1, 2, 3, 4\}$. Számítsuk ki
+   $A\Delta B$-t. Adjunk meg három-három lehetőséget olyan $C$
+   halmazra, melyre:
+   - $A \setminus \overline{C} \subseteq B$.
+   - $\{1, 2\} \subseteq A \Delta \overline{C} \subseteq B$.
+   - $A\Delta (B \Delta C)$ elemei mind páratlanok.
+
+6. Választható az alábbi két feladat közül. A választást tüntessük fel
+   a beadott lapon.  
+
+   6H: Mi a pontos (azaz szükséges és elégséges) feltétele annak, hogy
+   $A \Delta B = A \setminus B$ teljesüljön?  Állításunkat
+   igazoljuk. Melyek azok az $A$ halmazok, melyekhez létezik olyan
+   $B$, melyre $A \Delta B = A \setminus B$? Indokoljunk.
+
+   6R: Az alábbi $R$, illetve $S$ relációkról döntsük el, hogy
+   rendelkeznek-e a reflexív, szimmetrikus, tranzitív, illetve
+   antiszimmetrikus tulajdonsággal az $X$, illetve $Y$
+   halmazon. Számítsuk ki az $R\circ S$ és $S\circ R$ relációkat is:
+   adjuk meg rendezett párok halmazaként.
+   - $R = \{(1, 3), (1, 1), (3, 2), (3,4), (4, 2), (4, 3),\}$,
+     $X = \{1, 2, 3, 4\}$.
+   - $S = \{(x, y) \mid x, y\in \mathbb{Z}, x^2=y^2 \}$, $Y =
+     \mathbb{Z}$.
+

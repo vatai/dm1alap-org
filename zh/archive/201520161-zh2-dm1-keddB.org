@@ -1,0 +1,107 @@
+# -*- mode: org; mode: flyspell; ispell-local-dictionary: "hu" -*-
+#+SETUPFILE: zh-inc.org
+
+* Diszkrét matematika 1 - Második zárthelyi dolgozat B
+  
+  Számológép használata megengedett (kivéve grafikus illetve
+  programozható számológép). Időtartam: 90 perc. Minden feladat 10
+  pontot ér, a 2-es, 3-as, 4-es, 5-ös pont\-határa: 20, 30, 40, 50.
+  
+  \medskip
+
+  Réges-régen, egy messzi--messzi galaxisban dúl a /Galaktikus
+  polgár\-háború/ a /Lázadó szövetség/ és a /Galaktikus birodalom/
+  között.
+
+  1. Az alábbi feladatokban adjuk meg a lehetőségek számát.
+     
+     1) Hányféleképp tudunk 8, sorszámmal rendelkező A295-as puskát
+	kiosztani 10 katonának ha egy katona legfeljebb egy puskát
+	kaphat?
+	# B
+
+     2) Hányféleképp tudunk 8, sorszámmal rendelkező G-20 Glop
+	gránátot kiosztani 10 katonának ha egy katona több gránátot
+	is kaphat?
+	# B
+
+     3) Hányféleképp tud Leia herceg\-nő választani 30 katonából 12-t
+	aki részt vesz a Halál\-csillag megtámadásában?
+	# B
+
+     4) Hányféleképp lehet 20 üzemanyag cellát kiosztani 8 X-Wing
+	vadász\-hajóra, ha egy hajóra több üzemanyag\-cella is
+	kiosztható?
+	# B
+
+     5) Hányféleképpen tudja Leia herceg\-nő a lázadó szövetség 28
+        katonáját kiosztani két két\-személyes X-Wing vadász\-hajóba,
+        egy tizenkét\-személyes szállító\-hajóra és a többit egy
+        bázisra a Hoth bolygón?
+	# B
+
+  2. Tizenkét evok (Endor holdjának lakói) hányféleképp:
+     # B
+     
+     1) ülheti körbe a tábor\-tüzet?
+
+     2) élhet négy különböző három\-személyes kunyhóban?
+
+     3) lehet három négy\-fős csoportra osztani?
+
+     4) választhat egy hat\-fős tanácsot egy főnökkel és egy sámánnal
+        (ha a főnök és a sámán nem lehet ugyan az)?
+
+  3. A Halál\-csillagon a roham\-osztagosoknak 0,1,2,3,4,5,6,7,8,9
+     számjegyekből álló, nyolc\-számjegyes azonosítójuk van.  Hány
+     roham\-osztagos katonát tud elszállásolni a Halál\-csillag
+     (adat\-bázis módosítás nélkül) ha az azonosító:
+
+     1) első számjegy paritása eltér a mellette levő számjegy
+	paritásától?
+	# B
+
+     2) számjegyeiben minden nullától különböző páros szám előfordul?
+	# B
+
+     3) páros számjeggyel nem végződhet?
+	# B
+
+     4) osztható 3-mal?
+	# B
+
+  4. Darth Vader a következő számpárokon szeretné gyakorolni a
+     /bővített/ euklideszi algoritmust, segítsünk!
+     #+ATTR_LATEX: :environment inparaenum
+     1) $(133,60)$,
+     2) $(24,60)$,
+     3) $(50,121)$,
+     4) $(91,53)$.
+
+  5. Oldjuk meg az alábbi feladatokat, azaz valamilyen formában adjuk
+     meg az összes $x$ értéket, melyek igazzá teszik (többféle
+     megoldási mód is elfogadható, de csak a megoldást nem fogadjuk
+     el, mindenképpen meg kell mondani, hogy jött ki): [fn:: Segítség:
+     lehet, hogy érdemes az előző feladat után nekilátni ennek.]
+
+     #+ATTR_LATEX: :environment inparaenum
+     1) $60x \equiv 6 \pmod {133}$; 
+     2) $24x \equiv 10 \pmod {60}$;
+     3) $121x \equiv 2 \pmod {50}$;
+     4) $91x \equiv 7 \pmod {53}$.
+
+  6. Választható az alábbi két feladat közül. A választást tüntessük
+     fel a beadott lapon.
+
+     6D: Legyen $a_1,a_2,\ldots,a_{100}$ egész számok egy sorozata.
+     Bizonyítsuk be, hogy egy alkalmas rész\-sorozatra $a_{j_1} +
+     a_{j_2} + \cdots + a_{j_n}$ osztható 100-zal!
+
+     6K: Darth Vader próbálja sorokba és oszlopokba rendezni a
+     roham\-osztagosokat ha miden sorba:
+     - 4 katonát parancsol, az utolsó sorba 1 jut,
+     - 5 katonát parancsol, az utolsó sorba 2 jut,
+     - 7 katonát parancsol, az utolsó sorba 4 jut. 
+       
+     Hány roham\-osztagos van a halál\-csillagon, ha tudjuk, hogy a
+     bázis befogadóképessége 150 katona?

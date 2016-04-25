@@ -1,0 +1,36 @@
+#+SETUPFILE: zh-inc.org
+
+#+TITLE: 
+#+AUTHOR: 
+#+DATE: 
+
+* Diszkrét matematika 1 - 1. ZH, Minta ZH
+1) Jelölje $G(x,y)$ és $F(x)$ azt, hogy $x$ gyereke $y$ -nak illetve,
+   hogy $x$ férfi.  Definiáljuk formulával az alábbi kapcsolatokat,
+   hogy $x$ az $y$ -nak: 
+   1. anyai nagyapja;
+   2. unoka\-húga.
+2) Az emberek halmazán, jelölje $G(x,y)$, hogy $x$ gyereke $y$ -nak,
+   illetve, $F(x)$ azt, hogy $x$ férfi. Definiáljuk formulákkal az
+   alábbi kapcsolatokat: $x$ az $y$ -nak 
+   1. anyai nagyapja,
+   2. unoka\-öccse.
+3) Az embereket tekintve, jelölje $B(x)$, $I(x)$, $E(x)$, $K(x)$,
+   $N(x)$, illetve $H(x,y)$ rendre azt, hogy $x$ bíró, idős, életerős,
+   képviselő, nő, illetve, hogy $x$ házastársa $y$ -nak.  Formalizáljuk
+   az alábbi állításokat:
+   1. Bizonyos bírók idősek, de életerősek.
+   2. Egyetlen képviselő felesége sem idős.
+4) $A$, $B$ és $C$ halmazok. Bizonyítsd be, hogy: 
+   \begin{equation*} 
+   A \cap B \subseteq C \iff A \subseteq \overline{B} \cup C
+   \end{equation*} 
+5) Legyen $X=\mathbb{R}\times\mathbb{R}$ és legyen $\preceq \subset X
+   \times X$ binér reláció a következőképpen definiálva: $(x_1,y_1)
+   \preceq (x_2,y_2)$ akkor és csak akkor ha $x_1<x_2 \lor (x_1=x_2
+   \land y_1 \le y_2)$. Bizonyítsuk be, hogy $\preceq$
+   (részben)rendezés.
+6) Legyen $u=-1+\sqrt{3}i$, $v=\frac{-1-i}{\sqrt{2}}$, $w=1+2i$ és
+   $z=\frac{(uv)^6}{w}$. Mennyi $\overline{z}$, $z\overline{z}$,
+   $|z|$, $\Re Z$ és $\Im z$?
+7) Legyen $z=1-\sqrt{3}i$ és $n=4$. Mik az $x^n-z$ polinom gyökei?

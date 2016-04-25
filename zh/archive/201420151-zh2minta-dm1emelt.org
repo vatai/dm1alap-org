@@ -1,0 +1,78 @@
+# -*- mode: org; mode:flyspell; ispell-local-dictionary: "hu" -*-
+#+BIND: org-latex-title-command ""
+#+INCLUDE: zh-inc.org
+* Diszkrét matematika 1. (emelt) 2. zh (2014-2015 ősz) A csoport
+  1. Egy ismerősnek el akarunk küldeni 8 különböző
+     fényképet. Hányféleképpen tehetjük ezt meg, ha 5 különböző
+     borítékot akarunk felhasználni (egy boríték se maradhat üresen)?
+     (10 pont)
+  2. Egy hangya lépked a szám-egyenesen. Mindig csak egyet lép, és
+     véletlen szerűen vagy jobbra vagy balra. Az origóból indul és $n$
+     lépés után visszakerül az origóba anélkül, hogy negatív számra
+     lépet volna. Hányféleképp történhetett ez? (10 pont)
+  3. Hány olyan kiosztás lehetséges, amelyben négy játékos mindegyike
+     13-13 lapot kap, és ez egyik kijelölt párnál van legalább egy
+     figura? (10 pont)
+  4. Hány 5-jegyű szám alkotható három különböző számjegyből? (10 pont)
+  5. Egy $n$ tagú osztály minden évben megünnepli mindenki
+     születésnapját: mindenki kap a születésnapján egy tortát. A torta
+     rendelést a következő évre egyszerre, december 31-én kell a
+     cukrászdában leadni. Hányféle rendelés lehetséges? (10 pont)
+  6. 
+     1) Bizonyítsd be: $3 \mid n^3-n$ (5 pont).  
+     2) Bizonyítsd be, hogy ha $a, b, c\in\mathbb{N}$ és $3 \nmid
+        a^2 + b^2 + c^2$, akkor az $a$, $b$ és $c$ közül valamelyik
+        osztható 3-mal. (10 pont)
+  7. Milyen $x, y$ egészekre teljesül a $432x + 160y = 208$
+     egyenlőség. (10 pont)
+  8. Legyenek $p,q$ prímek.  Ha $\varphi(x)=840$, akkor menyi $x=p^2q^2$?
+     (10 pont).
+  9. Bizonyítsd be, hogy $7 \mid n^6-1$ ha $(n,7)=1$. (5 pont)
+  10. Mi $403^{401}$ utolsó három számjegye? (10 pont).
+  11. Melyek a $15x \equiv 25 \pmod{35}$ kongruencia inkongruens
+      megoldásai? (10 pont)
+  12. A Kínai maradék tétel alapján mit tudsz mondani a következő
+      lineáris kongruencia rendszer szimultán megoldásairól? (Milyen
+      modulussal, hány inkongruens megoldás van?)  (10 pont).
+      \begin{align*}
+      x & \equiv 2 \pmod{3} &
+      x & \equiv 3 \pmod{5} & 
+      x & \equiv 5 \pmod{2} 
+      \end{align*}
+  
+* Diszkrét matematika 1. (emelt) 2. zh (2014-2015 ősz) B csoport
+  1. Egy buszra felszáll 8 ember, és a következő 3 megálló
+     mindegyikében leszáll legalább egy ember, a harmadik megállóban
+     teljesen kiürül a busz. Hányféleképpen történhet ez? (10 pont)
+  2. $n$ zárójel párból hány helyes zárójelezést tudunk összeállítani?
+     (10 pont)
+  3. Hány olyan kiosztás lehetséges, amelyben négy játékos mindegyike
+     13-13 lapot kap, és mindkét (szemben ülő) párnál van legalább egy
+     figura? (10 pont)
+  4. Hány 5-jegyű szám alkotható négy különböző számjegyből? (10 pont)
+  5. Egy $n$ tagú osztály minden évben megünnepli mindenki
+     születésnapját: mindenki kap a születésnapján egy tortát. A torta
+     rendelést a következő évre egyszerre, december 31-én kell a
+     cukrászdában leadni. Hányféle rendelés lehetséges? (10 pont)
+  6. 
+     1) Bizonyítsd be: $3 \mid n^3-n$ (5 pont) 
+     2) Bizonyítsd be, hogy ha $a, b, c\in\mathbb{N}$ és $3 \nmid
+        a^2 + b^2 + c^2$, akkor az $a$, $b$ és $c$ közül valamelyik
+        osztható 3-mal. (10 pont)
+  7. Milyen $x, y$ egészekre teljesül a $323x +
+     85y = 323$ egyenlőség? (10 pont)
+  8. Legyen $p\not =q$ prímek.  Ha $\varphi(x)=120$, akkor menyi
+     $x=p^2q^2$? (10 pont)
+  9. Bizonyítsd be, hogy $7 \mid n^{12}-1$ ha $(n,7)=1$. (5 pont) 
+  10. Mi $519^{6803}$ utolsó két számjegye. (10 pont)
+  11. Melyek a $15x \equiv 25 \pmod{35}$ kongruencia in\-kongruens
+      megoldásai? (10 pont)
+  12. A Kínai maradék tétel alapján mit tudsz mondani a következő
+      lineáris kongruencia rendszer szimultán megoldásairól? (Milyen
+      modulussal, hány in\-kongruens megoldás van?) (10 pont)
+      \begin{align*}
+      x & \equiv 1 \pmod{4} & 
+      x & \equiv 0 \pmod{3} & 
+      x & \equiv 5 \pmod{7} 
+      \end{align*}
+  
