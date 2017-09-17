@@ -342,7 +342,7 @@
       és fogalmazza meg a beágyazás tulajdonságait.
    9) Van-e olyan racionális szám, amelynek a négyzete 2?  Bizonyítsa be
       állítását.
-** Valós számok 25
+** Valós számok 10
    1) Fogalmazza meg a felső határ tulajdonságot és az Archimédészi
       tulajdonságot.
    2) Fogalmazza meg a felső határ tulajdonságot és az Archimédészi
@@ -360,31 +360,32 @@
       ezek létezését.
    10) Fogalmazza meg a valós számok létezését leíró tételt.
        # - Definiálja a valós számokat az intervallumskatulyázási tulajdonsággal.
-   11) Definiálja a komplex számok halmazát a műveletekkel.
-   12) Definiálja a komplex számok halmazát a műveletekkel és bizonyítsa
-       be, hogy test.
-   13) Adja meg $\mathbb{R}$ beágyazását \(\mathbb{C}\)-be.
-   14) Definiálja \(i\)-t, komplex szám valós és képzetes részét,
-       konjugáltját és a képzetes számok fogalmát.
-   15) Fogalmazza meg a komplex konjugálás tulajdonságait.
-   16) Definiálja komplex szám abszolút értékét.  Milyen analízisbeli
-       tételt használt?
-   17) Fogalmazza meg komplex számok abszolút értékének tulajdonságait.
-   18) Fogalmazza meg komplex számok abszolút értékének tulajdonságait és
-       bizonyítsa be.
-   19) Definiálja komplex számokra a $\sgn$ függvényt és fogalmazza meg
-       tulajdonságait.
-   20) Definiálja komplex számok trigonometrikus alakját és argumentumát.
-   21) Írja fel két komplex szám szorzatát és hányadosát trigonometrikus
+** Komplex számok 15
+   1) Definiálja a komplex számok halmazát a műveletekkel.
+   2) Definiálja a komplex számok halmazát a műveletekkel és bizonyítsa
+      be, hogy test.
+   3) Adja meg $\mathbb{R}$ beágyazását \(\mathbb{C}\)-be.
+   4) Definiálja \(i\)-t, komplex szám valós és képzetes részét,
+      konjugáltját és a képzetes számok fogalmát.
+   5) Fogalmazza meg a komplex konjugálás tulajdonságait.
+   6) Definiálja komplex szám abszolút értékét.  Milyen analízisbeli
+      tételt használt?
+   7) Fogalmazza meg komplex számok abszolút értékének tulajdonságait.
+   8) Fogalmazza meg komplex számok abszolút értékének tulajdonságait és
+      bizonyítsa be.
+   9) Definiálja komplex számokra a $\sgn$ függvényt és fogalmazza meg
+      tulajdonságait.
+   10) Definiálja komplex számok trigonometrikus alakját és argumentumát.
+   11) Írja fel két komplex szám szorzatát és hányadosát trigonometrikus
        alakjuk segítségével.
-   22) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
+   12) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
        egyenlet összes megoldását.
-   23) Írja fel az \(n\)-edik komplex egység\-gyököket.  Mit értünk
+   13) Írja fel az \(n\)-edik komplex egység\-gyököket.  Mit értünk
        primitív \(n\)-edik egység\-gyök alatt?
-   24) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
+   14) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
        egyenlet összes megoldását az \(n\)-edik egység\-gyökök
        segítségével.
-   25) Fogalmazza meg az algebra alap\-tételét.
+   15) Fogalmazza meg az algebra alap\-tételét.
 ** Kvaterniók 12
    1) Definiálja a kvaterniók halmazát a műveletekkel.
    2) Milyen algebrai struktúrát alkotnak a kvaterniók?
