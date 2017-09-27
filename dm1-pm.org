@@ -5,6 +5,46 @@
 #+LATEX_HEADER: \usepackage[hu]{babel}
 #+LANGUAGE: hu
 #+OPTIONS: ':t
+
+* Komplex számok 17
+  1) Definiálja a komplex számok halmazát a műveletekkel!
+     # 2) BIZ: Definiálja a komplex számok halmazát a műveletekkel és
+     # bizonyítsa be, hogy test!
+  2) Adja meg $\mathbb{R}$ beágyazását \(\mathbb{C}\)-be!
+  3) Definiálja \(i\)-t, komplex szám valós és képzetes részét,
+     konjugáltját és a képzetes számok fogalmát!
+  4) Fogalmazza meg a komplex konjugálás tulajdonságait!
+  5) Definiálja komplex szám abszolút értékét!  
+     # Milyen analízisbeli tételt használt?
+  6) Fogalmazza meg komplex számok abszolút értékének tulajdonságait!
+  7) BIZ: Fogalmazza meg komplex számok abszolút értékének
+     tulajdonságait és bizonyítsa be!
+     # 9) Definiálja komplex számokra a $\sgn$ függvényt és fogalmazza meg
+     # tulajdonságait!
+  8) Definiálja komplex számok trigonometrikus alakját és argumentumát!
+  9) Írja fel két komplex szám szorzatát és hányadosát trigonometrikus
+     alakjuk segítségével!
+  10) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
+      egyenlet összes megoldását!
+  11) Írja fel az \(n\)-edik komplex egység\-gyököket!  Mit értünk
+      primitív \(n\)-edik egység\-gyök alatt?
+  12) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
+      egyenlet összes megoldását az \(n\)-edik egység\-gyökök
+      segítségével!
+  13) Fogalmazza meg az algebra alap\-tételét!
+  14) Definiálja egy komplex szám rendjének a fogalmát!
+  15) Fogalmazza meg a rend és egy komplex szám hatványai közötti
+      kapcsolatot leíró tételt.
+      # 18) BIZ: Fogalmazza meg és bizonyítsa be a rend és egy komplex szám
+      # hatványai közötti kapcsolatot leíró tételt.
+  16) Fogalmazza meg a primitív egység\-gyökökre vonatkozó állításokat
+      (következményeket)!
+      # 20) BIZ: Fogalmazza meg és bizonyítsa be a primitív egység\-gyökökre
+      # vonatkozó állításokat (következményeket)!
+  17) Fogalmazza meg az egység\-gyökök és primitív egység\-gyökök
+      kapcsolatát leíró tételt!
+      # 21) BIZ: Fogalmazza meg és bizonyítsa be az egység\-gyökök és
+      # primitív egység\-gyökök kapcsolatát leíró tételt!
 * Alapok
 ** Logika 9
    1) Mi lehet predikátumok értéke?  Hogyan jelöljük?
@@ -16,47 +56,47 @@
    7) Mik a nyitott és mik a zárt formulák?
    8) Mondjon két példát nyitott formulára.
    9) Mondjon egy példát zárt formulára.
-** Halmazok 26
+** Halmazok 19
    1) Milyen predikátumok szerepelnek a halmaz\-elméletben?
    2) Fogalmazza meg a meghatározottság elvét.
    3) Definiálja a rész\-halmaz és a valódi rész\-halmaz fogalmát és adja meg
       jelöléseiket.
    4) Milyen tulajdonságokkal rendelkezik a "rész\-halmaz" fogalom?
    5) Milyen tulajdonságokkal rendelkezik a halmazok egyenlősége?
-   6) Írja le a rész\-halmaz fogalmát. Milyen jelölést használunk
-      rész\-halmazok megadására?
-   7) Bizonyítsa be, hogy nincs olyan halmaz, amelynek minden dolog eleme.
-   8) Mi a Russel-paradoxon?  Magyarázza el.
-   9) Írja le az üres halmaz fogalmát.
-   10) Igaz-e, hogy csak egy üres halmaz van?
-       # - Bizonyítsa be, hogy az a feltevés, hogy van halmaz, a rész\-halmaz-axióma mellett ekvivalens az üres halmaz axiómájával.
-   11) Írja le a pár fogalmát.  Milyen jelölés kapcsolódik hozzá?
-       # - Fogalmazzon meg a részhalmaz-axióma mellett a pár\-axiómával ekvivalens feltevést, és bizonyítsa be az ekvivalenciát.
-   12) Írja le két halmaz unióját és a megfelelő jelöléseket.
-   13) Írja le halmaz\-rendszer unióját és a megfelelő jelöléseket.
-       # 24) Fogalmazza meg az unióaxiómát.  Milyen jelölések kapcsolódnak hozzá?
-       # 24) Fogalmazzon meg a részhalmaz-axióma mellett az unióaxiómával ekvivalens feltevést és bizonyítsa be az ekvivalenciát.
-   14) Fogalmazza meg a halmazok uniójának alaptulajdonságait.
-   15) Fogalmazza meg a halmazok uniójának kommutativitását,
-       asszociativitását és idempotenciáját és bizonyítsa be.
-   16) Definiálja halmazrendszer és két halmaz metszetét, és adja meg a
+      # 6) Írja le a rész\-halmaz fogalmát. Milyen jelölést használunk
+      # rész\-halmazok megadására?
+      # 7) Bizonyítsa be, hogy nincs olyan halmaz, amelynek minden dolog eleme.
+      # 8) Mi a Russel-paradoxon?  Magyarázza el.
+   6) Írja le az üres halmaz fogalmát.
+   7) Igaz-e, hogy csak egy üres halmaz van?
+      # - Bizonyítsa be, hogy az a feltevés, hogy van halmaz, a rész\-halmaz-axióma mellett ekvivalens az üres halmaz axiómájával.
+      # 11) Írja le a pár fogalmát.  Milyen jelölés kapcsolódik hozzá?
+      # - Fogalmazzon meg a részhalmaz-axióma mellett a pár\-axiómával ekvivalens feltevést, és bizonyítsa be az ekvivalenciát.
+   8) Írja le két halmaz unióját és a megfelelő jelöléseket.
+   9) Írja le halmaz\-rendszer unióját és a megfelelő jelöléseket.
+      # 24) Fogalmazza meg az unióaxiómát.  Milyen jelölések kapcsolódnak hozzá?
+      # 24) Fogalmazzon meg a részhalmaz-axióma mellett az unióaxiómával ekvivalens feltevést és bizonyítsa be az ekvivalenciát.
+   10) Fogalmazza meg a halmazok uniójának alaptulajdonságait.
+       # 15) Fogalmazza meg a halmazok uniójának kommutativitását,
+       # asszociativitását és idempotenciáját és bizonyítsa be.
+   11) Definiálja halmazrendszer és két halmaz metszetét, és adja meg a
        jelöléseket.
-   17) Definiálja a diszjunktság és páronként diszjunktság
+   12) Definiálja a diszjunktság és páronként diszjunktság
        fogalmát.
-   18) Fogalmazza meg a halmazok metszetének alaptulajdonságait.
-   19) Fogalmazza meg a halmazok metszetének kommutativitását,
-       asszociativitását és idempotenciáját és bizonyítsa be.
-   20) Fogalmazza meg az unió és a metszet disztributivitását.
-   21) Fogalmazza meg és bizonyítsa be az unió és a metszet
+   13) Fogalmazza meg a halmazok metszetének alaptulajdonságait.
+       # 19) Fogalmazza meg a halmazok metszetének kommutativitását,
+       # asszociativitását és idempotenciáját és bizonyítsa be.
+   14) Fogalmazza meg az unió és a metszet disztributivitását.
+   15) Fogalmazza meg és bizonyítsa be az unió és a metszet
        disztributivitását.
-   22) Definiálja halmazok különbségét, szimmetrikus differenciáját és
+   16) Definiálja halmazok különbségét, szimmetrikus differenciáját és
        komplementerét.
-   23) Fogalmazza meg a halmazok komplementerének alaptulajdonságait.
-   24) Fogalmazza meg és bizonyítsa be a De Morgan azonosságokat két
+   17) Fogalmazza meg a halmazok komplementerének alaptulajdonságait.
+   18) Fogalmazza meg és bizonyítsa be a De Morgan azonosságokat két
        halmazra.
-   25) Írja le a hatványhalmaz fogalmát.  Milyen jelölések kapcsolódnak
+   19) Írja le a hatványhalmaz fogalmát.  Milyen jelölések kapcsolódnak
        hozzá?
-   26) Fogalmazza meg a végtelenségi axiómát.
+       # 26) Fogalmazza meg a végtelenségi axiómát.
        # - Mit jelöl $\bom$?  Bizonyítsa a kapcsolódó, létezésre és egyértelműségre vonatkozó állításokat.
 
 ** Relációk 44
@@ -77,6 +117,7 @@
       három egyszerű tulajdonságát.
    10) Definiálja halmaz képét és inverz képét binér relációnál és adja
        meg a kapcsolódó jelöléseket.
+* COMMENT Current
    11) Definiálja binér relációk kompozícióját.  Lehet-e a kompozíció
        üres?
    12) Fogalmazzon meg három, binér relációk kompozíciójára vonatkozó
@@ -180,7 +221,7 @@
    24) Adjon meg egy binér és egy unér műveletet táblázattal.
    25) Hogyan definiálunk műveleteket függvénytereken?
    26) Definiálja a művelettartó leképezés fogalmát.
-* Szám\-fogalom
+* COMMENT Szám\-fogalom
 ** Természetes számok 47
    1) Fogalmazza meg a Peano-axiómákat.
    2) Mi a rákövetkező, a rákövetkezés, és a teljes indukció elve?
@@ -360,32 +401,6 @@
       ezek létezését.
    10) Fogalmazza meg a valós számok létezését leíró tételt.
        # - Definiálja a valós számokat az intervallumskatulyázási tulajdonsággal.
-** Komplex számok 15
-   1) Definiálja a komplex számok halmazát a műveletekkel.
-   2) Definiálja a komplex számok halmazát a műveletekkel és bizonyítsa
-      be, hogy test.
-   3) Adja meg $\mathbb{R}$ beágyazását \(\mathbb{C}\)-be.
-   4) Definiálja \(i\)-t, komplex szám valós és képzetes részét,
-      konjugáltját és a képzetes számok fogalmát.
-   5) Fogalmazza meg a komplex konjugálás tulajdonságait.
-   6) Definiálja komplex szám abszolút értékét.  Milyen analízisbeli
-      tételt használt?
-   7) Fogalmazza meg komplex számok abszolút értékének tulajdonságait.
-   8) Fogalmazza meg komplex számok abszolút értékének tulajdonságait és
-      bizonyítsa be.
-   9) Definiálja komplex számokra a $\sgn$ függvényt és fogalmazza meg
-      tulajdonságait.
-   10) Definiálja komplex számok trigonometrikus alakját és argumentumát.
-   11) Írja fel két komplex szám szorzatát és hányadosát trigonometrikus
-       alakjuk segítségével.
-   12) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
-       egyenlet összes megoldását.
-   13) Írja fel az \(n\)-edik komplex egység\-gyököket.  Mit értünk
-       primitív \(n\)-edik egység\-gyök alatt?
-   14) Ha $n\in\mathbb{N}^+$ és $w\in\mathbb{C}$, írja fel a $z^n=w$
-       egyenlet összes megoldását az \(n\)-edik egység\-gyökök
-       segítségével.
-   15) Fogalmazza meg az algebra alap\-tételét.
 ** Kvaterniók 12
    1) Definiálja a kvaterniók halmazát a műveletekkel.
    2) Milyen algebrai struktúrát alkotnak a kvaterniók?
@@ -404,7 +419,7 @@
        tulajdonságait.
    12) Sorolja fel kvaterniók abszolút értékének a tulajdonságait és
        bizonyítsa be ezeket.
-* Számosság
+* COMMENT Számosság
 ** Ekvivalencia 8
    1. Definiálja halmazok ekvivalenciáját és sorolja fel tulajdonságait.
    2. Ha az $X$ és $X'$ illetve $Y$ és $Y'$ halmazok ekvivalensek,
@@ -451,7 +466,7 @@
    15) Fogalmazza meg a polinomiális tételt és bizonyítsa be.
    16) Fogalmazza meg a logikai szita formulát.
    17) Fogalmazza meg a logikai szita formulát és bizonyítsa be.
-* Szám\-elmélet 
+* COMMENT Szám\-elmélet 
 ** Oszthatóság 31
    1. Definiálja a természetes számok körében az
       oszthatóságot és adja meg a jelölését.
@@ -572,7 +587,7 @@
        kiszámítására vonatkozó tételt.
    30. Fogalmazza meg és bizonyítsa be az Euler-féle $\varphi$
        függvény kiszámítására vonatkozó tételt.
-* COMMENT
+* COMMENT Szám\-elméleti függvények
   1. Definiálja számelméleti függvények konvolúcióját két alakban.
   2. Milyen struktúrát alkotnak a számelméleti függvények a
      konvolúcióval?
